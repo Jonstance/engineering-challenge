@@ -15,7 +15,7 @@ export default function Home() {
         <input type="text" id="search" className={styles.searchBar} name="search" placeholder='Search' />
        
         <div className={styles.row}>
-          <select name="cars" id="cars" className={styles.filter}>
+          <select name="cars" id="cars" className={styles.filter} placeholder="By Name">
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
@@ -35,7 +35,7 @@ export default function Home() {
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
-          
+
           <select name="cars" id="cars" className={styles.filter}>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
